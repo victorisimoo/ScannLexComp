@@ -4,7 +4,6 @@
  */
 using COMP_VictorHernandez_1301219.Structure.Interpretation;
 using System;
-using System.Reflection;
 
 namespace COMP_VictorHernandez_1301219 {
     /// <summary>
@@ -19,6 +18,7 @@ namespace COMP_VictorHernandez_1301219 {
             string expression = Console.ReadLine();
             if (expression != null) {
                 Console.WriteLine("> Result: " + parserobj.ParserExpression(expression));
+                Console.ReadLine();
             }else {
                 Console.WriteLine("----- | Error: The expression is empty! | -----");
                 Console.ReadLine();

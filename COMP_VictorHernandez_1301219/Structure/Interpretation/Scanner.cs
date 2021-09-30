@@ -65,7 +65,8 @@ namespace COMP_VictorHernandez_1301219.Structure.Interpretation {
                         result.Value = peek;
                         break;
                     default:
-                        throw new Exception("LexError");
+                        Console.WriteLine("----- | Error: A lexical error has been encountered! | -----");
+                        break;
                 } // End switch peek
                 index = index + 1;
             } // End while !tokenFound
